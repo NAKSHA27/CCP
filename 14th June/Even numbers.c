@@ -3,13 +3,14 @@
 int main()
 {
     int i, m, n;
-    printf("\n Enter the values of m and n respectively:");
-    scanf(" %d %d", &m, &n);
-
+    printf("\n Enter the value of m:");
+    scanf("%d", &m);
+    printf("\n Enter the value of n:");
+    scanf("%d", &n);
     for(i=m;n>=i;i++)
     {
         if (i%2==0)
-        printf("%d\n", i);
+        printf("%d\t", i);
     }
 
     return 0;

@@ -20,7 +20,7 @@ int main()
     l=i;
     printf("Length of string=%d\n", l);
     s1[i]='\0';
-    printf("After copying the string 1= ");
+    printf("After copying the string = ");
     puts(s1);
 
 

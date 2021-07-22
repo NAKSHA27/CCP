@@ -6,12 +6,12 @@ int main()
 {
     float a, b, c, Area;
 
-    printf("Enter the three sides of a triangle/n:");
+    printf("\nEnter the three sides of a triangle:");
     scanf("%f%f%f",&a,&b,&c);
 
     Area= AreaofaTriangle(a,b,c);
 
-    printf("\nArea of a triangle=%.2f\n",Area);
+    printf("\nArea of a triangle=%.2f",Area);
     return 0;
 
 
